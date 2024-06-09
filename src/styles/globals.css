@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.NormalText {
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  -webkit-text-fill-color: rgb(255, 0, 0);
+  font-family: "Comic Sans MS";
+}
+
+.InfoText {
+  background: rgba(255, 255, 255, 0.541);
+  padding: 0.5%;
+}
+
+pre {
+  font-family: "Comic Sans MS";
+  font-size: 0.8em;
+  text-align: left;
+  font-style: normal;
+  -webkit-text-fill-color: rgb(255, 0, 0);
+}
+
+body {
+  background: #222222;
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: auto;
+}
